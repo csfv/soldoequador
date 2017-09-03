@@ -418,15 +418,15 @@ h6,
   color: #ffffff;
 }
 #menu-8 .navbar-toggler {
-  color: #ffffff;
+  color: #000000;
 }
 #menu-8 .close-icon::before,
 #menu-8 .close-icon::after {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 #menu-8 .link,
 #menu-8 .dropdown-item {
-  color: #ffffff;
+  color: #000000;
 }
 #menu-8 .link {
   font-size: 0.75rem;
@@ -458,7 +458,7 @@ h6,
   background: #000000;
 }
 #menu-8 .bg-color.transparent .link {
-  color: #ffffff;
+  color: #000000;
   transition: none;
 }
 #menu-8 .bg-color.transparent.opened .link {
@@ -470,7 +470,7 @@ h6,
 }
 #menu-8 .link[aria-expanded="true"],
 #menu-8 .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
+  color: #000000!important;
 }
 #msg-box8-v .mbr-section-title,
 #msg-box8-v p {
@@ -789,5 +789,66 @@ h6,
 }
 #menu-y .link[aria-expanded="true"],
 #menu-y .dropdown-item[aria-expanded="true"] {
+  color: #000000!important;
+}
+#menu-20 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-20 .navbar-caption {
+  color: #ffffff;
+}
+#menu-20 .navbar-toggler {
+  color: #000000;
+}
+#menu-20 .close-icon::before,
+#menu-20 .close-icon::after {
+  background-color: #000000;
+}
+#menu-20 .link,
+#menu-20 .dropdown-item {
+  color: #000000;
+}
+#menu-20 .link {
+  font-size: 0.75rem;
+}
+#menu-20 .dropdown-item,
+#menu-20 .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#menu-20 .link:hover,
+#menu-20 .dropdown-item:hover,
+#menu-20 .link:focus,
+#menu-20 .dropdown-item:focus {
+  color: #000000;
+}
+#menu-20 .link[aria-expanded="true"],
+#menu-20 .dropdown-menu {
+  background: #000000;
+}
+#menu-20 .nav-dropdown-sm .link:focus,
+#menu-20 .nav-dropdown-sm .link:hover,
+#menu-20 .nav-dropdown-sm .dropdown-item:focus,
+#menu-20 .nav-dropdown-sm .dropdown-item:hover {
+  background: #000000!important;
+}
+#menu-20 .navbar,
+#menu-20 .nav-dropdown-sm,
+#menu-20 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-20 .nav-dropdown-sm .dropdown-menu {
+  background: #000000;
+}
+#menu-20 .bg-color.transparent .link {
+  color: #000000;
+  transition: none;
+}
+#menu-20 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-20 .bg-color.transparent.opened .link:hover,
+#menu-20 .bg-color.transparent.opened .link:focus {
+  color: #000000;
+}
+#menu-20 .link[aria-expanded="true"],
+#menu-20 .dropdown-item[aria-expanded="true"] {
   color: #000000!important;
 }

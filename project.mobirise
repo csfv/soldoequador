@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Aerodesign",
-    "currentPage": "selecao.html",
+    "currentPage": "smaug.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -370,8 +370,8 @@
             "bgColor": "#a07e49",
             "bgVideoRadio": true,
             "bgVideo": {
-              "url": "https://www.youtube.com/edit?o=U&video_id=0Y_IE1OzENc",
-              "rawUrl": "https://www.youtube.com/edit?o=U&video_id=0Y_IE1OzENc",
+              "url": "https://www.youtube.com/embed/0Y_IE1OzENc?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://youtu.be/0Y_IE1OzENc",
               "width": 1280,
               "height": 720
             },

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Aerodesign",
-    "currentPage": "index.html",
+    "currentPage": "selecao.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -628,7 +628,7 @@
           },
           "title": "FICHA DE INSCRIÇÃO",
           "subtitle": "Processo Seletivo para equipe 2018 em andamento.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
           "form": {
             "action": "caiosfvilanova@gmail.com",
             "alerts": {
@@ -666,31 +666,6 @@
               "color": "#232323"
             }
           }
-        },
-        {
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5,
-            "facebook": true,
-            "twitter": true,
-            "google": true,
-            "vkontakte": false,
-            "odnoklassniki": false
-          },
-          "text": "COMPARTILHE!",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons1",
-          "_anchor": "social-buttons1-1z"
         },
         {
           "_styles": {

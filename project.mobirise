@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Aerodesign",
-    "currentPage": "index.html",
+    "currentPage": "selecao.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -25,7 +25,7 @@
       ]
     },
     "versionFirst": "4.2.3",
-    "uniqCompNum": 85,
+    "uniqCompNum": 89,
     "versionPublish": "4.2.3",
     "favicon": "",
     "noImageResize": ""
@@ -86,7 +86,7 @@
           },
           "title": "SOL DO EQUADOR AERODESIGN",
           "text": "Instituto Federal de Educação, Ciência e Tecnologia do Piauí.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">Clique aqui</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">Projeto 11S</a>",
           "_tags": [
             "Theme"
           ],
@@ -122,7 +122,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PIAUÍ</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text1": "<strong>INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PIAUÍ</strong><br>Reitoria - Av. Presidente Jânio Quadros, 330, 64053-390, Santa Isabel, Teresina (PI)<br>",
           "text2": "<strong>Contatos</strong><br>\nEmail: ifpi.aerodesign@hotmail.com<br>\nCapitão: +55 (86) 9 99<br>Gestão e recursos: +55 (86) 9 99",
           "text3": "<strong>Links</strong><br><a class=\"text-white\" href=\"http://libra.ifpi.edu.br/\" target=\"_blank\">Site da Universidade</a><br><a class=\"text-white\" href=\"http://portal.saebrasil.org.br/programas-estudantis/sae-brasil-aerodesign\" target=\"_blank\">SAE Brasil</a><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\">.</a>",
           "_tags": [
@@ -251,7 +251,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "PROJETO \"nome da aeronave\"",
+          "title": "",
           "text": "<p>Competição SAE Aerodesign 2017 na classe Regular.</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
           "_tags": [
@@ -611,63 +611,6 @@
       },
       "components": [
         {
-          "_params": {
-            "showTitle": true,
-            "showSubTitle": true,
-            "labelsColor": "#232323",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "FICHA DE INSCRIÇÃO",
-          "subtitle": "Processo Seletivo para equipe 2018 em andamento.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
-          "form": {
-            "action": "caiosfvilanova@gmail.com",
-            "alerts": {
-              "success": "Inscrição efetuada com sucesso!"
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Nome*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Telefone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Informe a gerência pretendida:"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_anchor": "form1-17",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
-        },
-        {
           "_styles": {
             ".hide-buttons .nav-btn": {
               "display": "none !important"
@@ -713,7 +656,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#000000!important"
+              "color": "@primaryColor!important"
             }
           },
           "_params": {
@@ -752,6 +695,44 @@
           ],
           "_name": "menu",
           "_anchor": "menu-27"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-lead": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/16903491-1544384028908465-7289188793358545107-o-1328x747.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "ENTRE PARA A EQUIPE",
+          "text": "Processo seletivo 2018 em andamento!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Saiba Mais</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-2g"
         }
       ]
     },
@@ -882,7 +863,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PIAUÍ</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text1": "<strong>INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PIAUÍ</strong><br>Reitoria - Av. Presidente Jânio Quadros, 330, 64053-390, Santa Isabel, Teresina (PI)<br>",
           "text2": "<strong>Contatos</strong><br>\nEmail: ifpi.aerodesign@hotmail.com<br>\nCapitão: +55 (86) 9 99<br>Gestão e recursos: +55 (86) 9 99",
           "text3": "<strong>Links</strong><br><a class=\"text-white\" href=\"http://libra.ifpi.edu.br/\" target=\"_blank\">Site da Universidade</a><br><a class=\"text-white\" href=\"http://portal.saebrasil.org.br/programas-estudantis/sae-brasil-aerodesign\" target=\"_blank\">SAE Brasil</a><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\">.</a>",
           "_tags": [
@@ -1309,7 +1290,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#000000!important"
+              "color": "@primaryColor!important"
             }
           },
           "_params": {
